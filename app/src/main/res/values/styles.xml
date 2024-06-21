@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">@font/font_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="RoundedCornersBottom">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomLeft">25dp</item>
+        <item name="cornerSizeBottomRight">25dp</item>
+    </style>
+
+    <style name="RoundedCornersBottomOn">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomLeft">0%</item>
+        <item name="cornerSizeBottomRight">50%</item>
+    </style>
+
+    <style name="BottomSheetModal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="navTextViewAppearanceInactive">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/font_regular</item>
+        <item name="android:fontFamily">@font/font_regular</item>
+    </style>
+
+    <style name="navTextViewAppearanceActive">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/font_regular</item>
+        <item name="android:fontFamily">@font/font_regular</item>
+    </style>
+
+
+    <style name="CardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/color_card</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="android:navigationBarColor">@color/color_surface</item>
+        <item name="bottomSheetStyle">@style/BottomSheetModal</item>
+    </style>
+
+
+    <style name="ShapeAppearance" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#7E9AFF</item>
+        <item name="colorControlActivated">#ffae19</item>
+    </style>
+
+
+    <style name="Theme.WebDetail" parent="@style/Theme.MyApplication">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:colorBackground">@color/color_surface</item>
+        <item name="android:windowBackground">@color/color_surface</item>
+        <item name="android:navigationBarColor">@color/color_surface</item>
+        <item name="android:windowLightStatusBar">?isLightTheme</item>
+    </style>
+
+
+    <style name="Theme.Onboarding" parent="@style/Theme.MyApplication">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:colorBackground">@drawable/food_boarding_two</item>
+        <item name="android:windowBackground">@drawable/food_boarding_two</item>
+        <item name="android:navigationBarColor">@color/color_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+
+    <style name="Theme.Splash" parent="@style/Theme.MyApplication">
+        <item name="android:windowBackground">@drawable/shape_splash_bitmap</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+</resources>

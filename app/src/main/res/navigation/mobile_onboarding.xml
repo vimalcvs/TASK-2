@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ft_guide_one">
+
+    <fragment
+        android:id="@+id/ft_guide_one"
+        android:name="com.vimal.margh.view.fragment.FragmentGuideOne"
+        android:label="@string/onboarding"
+        tools:layout="@layout/fragment_guide_one">
+        <action
+            android:id="@+id/action_ft_guide_one_to_ft_guide_two"
+            app:destination="@id/ft_guide_two" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/ft_guide_two"
+        android:name="com.vimal.margh.view.fragment.FragmentGuideTwo"
+        android:label="@string/onboarding"
+        tools:layout="@layout/fragment_guide_two">
+        <action
+            android:id="@+id/action_ft_guide_two_to_ft_guide_three"
+            app:destination="@id/ft_guide_three" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/ft_guide_three"
+        android:name="com.vimal.margh.view.fragment.FragmentGuideThree"
+        android:label="@string/onboarding"
+        tools:layout="@layout/fragment_guide_three" />
+
+
+</navigation>

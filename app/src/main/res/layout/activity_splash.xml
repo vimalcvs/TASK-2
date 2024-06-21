@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/loading_progress"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="40dp"
+        android:visibility="invisible"
+        app:cardBackgroundColor="#1CE8F0FA"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:id="@+id/loading"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/load_progress"
+            android:visibility="invisible" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/sub_title_tv"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/font_medium"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.004"
+        android:shadowColor="#33000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:text="@string/play_to_learn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/loading_progress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:fontFamily="@font/font_medium"
+        android:gravity="bottom"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.02"
+        android:lines="1"
+        android:shadowColor="#33000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:text="@string/app_name"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:textStyle="italic|bold"
+        app:autoSizeMaxTextSize="55sp"
+        app:autoSizeMinTextSize="10sp"
+
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/sub_title_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

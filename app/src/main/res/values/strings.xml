@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">TesteBud</string>
+    <string name="beginner_s_guide">Beginner\'s Guide</string>
+    <string name="category">Category</string>
+    <string name="category_lamb">Lamb</string>
+    <string name="category_pasta">Pasta</string>
+    <string name="category_pork">Pork</string>
+    <string name="category_side">Side</string>
+    <string name="category_vegetarian">Vegetarian</string>
+    <string name="click_here">Click here >></string>
+    <string name="explore_bottom_hint">Tell us the articles you are interested in.</string>
+    <string name="explore_learn_more">Learn more ></string>
+    <string name="favorite_is_empty">Favorite is empty</string>
+    <string name="favorites">Favorites</string>
+    <string name="global_more">More</string>
+    <string name="home">Home</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="instructions">Instructions:</string>
+    <string name="list_add_favorites">Added to favorites!</string>
+    <string name="list_remove_favorites">Removed from favorites!</string>
+    <string name="measure">Measure:</string>
+    <string name="no_data_available">No Data Found</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="recommended_for_you">Recommended for you:</string>
+    <string name="retry">Retry!</string>
+    <string name="share_app_message">Hi there!\n Download it now: https://play.google.com/store/apps/details?id=</string>
+    <string name="share_app_title">Share App</string>
+    <string name="share_recipe">Share Recipe</string>
+    <string name="source">Source</string>
+    <string name="trend">Trending</string>
+    <string name="watch_on_youtube">Watch On Youtube</string>
+
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+    <string name="guide_one_one_translate_in_real_time">Find, Cook, and Share Your Favorite Recipes</string>
+    <string name="guide_one_two_translate">Dive into world of flavors. Search for recipes, plan your meals, and share your culinary adventures.</string>
+    <string name="guide_three_one_built_in_exercises"> Let\'s Cook Something Amazing</string>
+    <string name="guide_three_two_flashcards_and_games">Start exploring, cooking, and savoring delicious recipes today. Enjoy your culinary journey with us!.</string>
+    <string name="guide_two_one_a_handy_dictionary">Save Your Favorites, Share Your Discoveries</string>
+    <string name="guide_two_two_memorize_words">Save recipes for later, share with friends, and become part of a food-loving community.</string>
+    <string name="onboarding">Onboarding</string>
+    <string name="language">Language</string>
+    <string name="play_to_learn">Play to learn</string>
+    <string name="progress_text">Progress 36%</string>
+    <string name="nutrition_facts">Nutrition Facts:</string>
+    <string name="login">Login</string>
+
+
+</resources>

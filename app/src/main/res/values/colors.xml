@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="ic_launcher_background">#FF6D00</color>
+    <color name="color_accent">#FF6D00</color>
+    <color name="color_background">#F1F9FC</color>
+    <color name="color_blue">#4C83FF</color>
+    <color name="color_button_active">@color/color_accent</color>
+    <color name="color_button_inactive">#1F0E68F9</color>
+    <color name="color_card">#FFFFFF</color>
+    <color name="color_clip_active">@color/color_primary</color>
+    <color name="color_clip_inactive">#030E68F9</color>
+    <color name="color_green">#00CC91</color>
+    <color name="color_icon">@color/color_accent</color>
+    <color name="color_nav_active">@color/color_accent</color>
+    <color name="color_orange">#FFAE19</color>
+    <color name="color_primary">@color/color_accent</color>
+    <color name="color_red">#FF6B41</color>
+    <color name="color_ripple">#08000000</color>
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_title">#FCFEFE</color>
+    <color name="color_toolbar">@color/color_primary</color>
+    <color name="color_violet">#B231FF</color>
+    <color name="quiz_btn_color_normal">#0a041e54</color>
+    <color name="quiz_btn_color_right">#00D086</color>
+    <color name="quiz_btn_color_wrong">#F32830</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="text_fifth">#145383FE</color>
+    <color name="text_fourth">#52041e54</color>
+    <color name="text_primary">#ff041e54</color>
+    <color name="text_secondary">#b3041e54</color>
+    <color name="text_third">#7a041e54</color>
+    <color name="text_five">#3e041e54</color>
+
+    <color name="color_card_hint">#1F0E68F9</color>
+
+</resources>
